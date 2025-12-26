@@ -1,0 +1,63 @@
+{
+  "fullscreen": true,
+  "window_width": 1000,
+  "window_height": 650,
+  "grid_columns": 4,
+  "grid_rows": 3,
+  "padding": 14,
+  "button_width": 220,
+  "button_height": 130,
+  "font": "Segoe UI 18 bold",
+  "background": "#0E1014",
+  "button_color": "#1B2230",
+  "button_active_color": "#2B364A",
+  "button_text_color": "#F4F7FA",
+  "show_header": true,
+  "header_text": "TouchDeck",
+  "header_background": "#0B0E14",
+  "header_text_color": "#E7EBF0",
+  "header_font": "Segoe UI 16 bold",
+  "current_mode_index": 0,
+  "modes": [
+    {
+      "name": "Default",
+      "buttons": [
+        {
+          "label": "Chrome",
+          "command": "C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe",
+          "args": [],
+          "cwd": null,
+          "color": "#00aa00"
+        },
+        {
+          "label": "Notepad",
+          "command": "notepad.exe",
+          "args": [],
+          "cwd": null,
+          "color": "#00aaff"
+        },
+        {
+          "label": "Calculator",
+          "command": "calc.exe",
+          "args": [],
+          "cwd": null,
+          "color": "#0000ff"
+        },
+        {
+          "label": "File Explorer",
+          "command": "explorer.exe",
+          "args": [],
+          "cwd": null,
+          "color": "#000000"
+        },
+        {
+          "label": "Claude",
+          "command": "C:/Users/TempAdmin/AppData/Local/AnthropicClaude/claude.exe",
+          "args": [],
+          "cwd": null,
+          "color": "#ff5500"
+        }
+      ]
+    }
+  ]
+}
